@@ -1,0 +1,58 @@
+/* Container holding the image and the text */
+
+.accomplishments {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+/* Actually Amazing, reference this for later use */
+
+.background-image-1 {
+    background: linear-gradient(rgba(14, 14, 14, 0.74), rgba(14, 14, 14, 0.74)), url("./assets/images/placeimg_1000_480_grayscale_nature (1).jpg") no-repeat;
+    background-size: 100%;
+    height: 30em;
+}
+
+#top-jumbotron {
+    margin-bottom: 0;
+}
+
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.media {
+    padding-top: 40px;
+}
+
+.media a:hover,
+.media a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.media .media-left .icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 16px 6px;
+    color: #f0f0f0;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.media .media-left .icon::before {
+    font-size: 44px;
+}
+
+a {
+    padding-right: 2em;
+}
